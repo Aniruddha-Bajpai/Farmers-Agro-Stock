@@ -1,0 +1,13 @@
+.underProgress {
+  width: 50vmax;
+  margin: 5vmax auto;
+  text-align: center;
+}
+.underProgress > img {
+  width: 50vmax;
+}
+@media screen and (max-width: 1020px) {
+  .underProgress > img {
+    margin: 10vmax auto;
+  }
+}
