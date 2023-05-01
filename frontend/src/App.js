@@ -13,6 +13,7 @@ import UserOptions from "./component/layout/Header/UserOptions.js";
 import { useSelector } from "react-redux";
 
 /** Components */
+import ChatBot from "./component/chatbot/App";
 import Loader from "./component/layout/Loader/AnimatedLoader";
 import Home from "./component/Home/Home";
 import ProductDetails from "./component/Product/ProductDetails.js";
@@ -45,7 +46,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/login" element={<LoginSignUp />} />
         <Route path="/account" element={<Profile />} />
-        <Route path="/contact" element={<UnderProgress />} />
+        <Route path="/auction-room" element={<ChatBot />} />
         <Route path="/about" element={<UnderProgress />} />
         <Route path="/cart" element={<UnderProgress />} />
         <Route path="/dashboard" element={<UnderProgress />} />
